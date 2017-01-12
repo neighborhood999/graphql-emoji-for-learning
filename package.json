@@ -1,0 +1,26 @@
+{
+  "name": "graphql-emoji-for-learning",
+  "version": "1.0.0",
+  "description": "Learning GraphQL.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "fetchEmoji": "node fetchEmoji.js"
+  },
+  "author": "Peng-Jie <dean.leehom@gmail.com> (https://github.com/neighborhood999)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neighborhood999/graphql-emoji-for-learning"
+  },
+  "dependencies": {
+    "graphql": "^0.8.2"
+  },
+  "devDependencies": {
+    "axios": "^0.15.3",
+    "koa": "^2.0.0",
+    "koa-convert": "^1.2.0",
+    "koa-graphql": "^0.6.0",
+    "koa-mount": "^2.0.0"
+  },
+  "license": "MIT"
+}
